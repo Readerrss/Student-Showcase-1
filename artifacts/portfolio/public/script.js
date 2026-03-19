@@ -97,9 +97,9 @@ function loadProjectsFallback(target) {
         <title>A Museum Anomaly</title>
         <tech>UE5, C++</tech>
         <category>Game Development</category>
-        <role>Lead Developer</role>
-        <collaborators>Ritam Chatterjee</collaborators>
-        <desc>A psychological thriller game built in Unreal Engine 5 using custom C++ anomaly detection logic. Features dynamic AI behaviour, environmental storytelling, and real-time rendering pipelines.</desc>
+        <role>Solo Developer</role>
+        <collaborators>Solo</collaborators>
+        <desc>A psychological thriller game built solo in Unreal Engine 5 using custom C++ anomaly detection logic. Features dynamic AI behaviour, environmental storytelling, and real-time rendering pipelines.</desc>
         <status>Completed</status>
     </project>
     <project id="002">
@@ -116,8 +116,8 @@ function loadProjectsFallback(target) {
         <tech>UE5 Blueprints</tech>
         <category>Game Development</category>
         <role>Physics Optimizer</role>
-        <collaborators>Syed Meraj Ahmed</collaborators>
-        <desc>A physics-based platformer game optimised for smooth 60fps gameplay. Implemented custom Blueprint logic for gravity manipulation, momentum preservation, and level progression.</desc>
+        <collaborators>Ritam Chatterjee, Syed Meraj Ahmed</collaborators>
+        <desc>A physics-based platformer game built collaboratively. Implemented custom Blueprint logic for gravity manipulation, momentum preservation, and level progression for smooth 60fps gameplay.</desc>
         <status>Completed</status>
     </project>
     <project id="004">
