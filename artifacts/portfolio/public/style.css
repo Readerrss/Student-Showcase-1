@@ -714,6 +714,62 @@ footer p {
 }
 .footer-links a:hover { color: var(--primary); }
 
+/* ----------- Certificate Link ----------- */
+.cert-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    border: 1px solid var(--primary-glow);
+    border-radius: 999px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all var(--transition);
+}
+.cert-link:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+/* ----------- Social contact links ----------- */
+.contact-social-link {
+    text-decoration: none;
+    color: var(--text);
+}
+.contact-social-link:hover { color: var(--text); }
+
+/* ----------- Social buttons (hero) ----------- */
+.social-btns {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1.5px solid var(--border-strong);
+    color: var(--text-muted);
+    background: var(--card-bg);
+    transition: all var(--transition);
+}
+.social-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: var(--primary-glow);
+}
+
 /* ----------- Scroll to Top Button ----------- */
 #scrollTopBtn {
     position: fixed;
