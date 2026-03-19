@@ -25,6 +25,8 @@
         <collaborators>IBM Internship Team</collaborators>
         <desc>Exploratory Data Analysis application developed during IBM internship. Visualises viewer retention trends, content growth patterns, and genre analytics across Netflix streaming datasets.</desc>
         <status>Completed</status>
+        <link>https://github.com/Readerrss/Netflix-EDA</link>
+        <link_label>View on GitHub</link_label>
     </project>
     <project id="003">
         <title>The Final Climb</title>
@@ -34,6 +36,8 @@
         <collaborators>Ritam Chatterjee, Syed Meraj Ahmed</collaborators>
         <desc>A physics-based platformer game built collaboratively. Implemented custom Unreal Engine Blueprint logic for gravity manipulation, momentum preservation, and level progression for smooth 60fps gameplay.</desc>
         <status>Completed</status>
+        <link>https://drive.google.com/drive/folders/1PLyxFEeKqWV_c-UPsC5WYzx6LEUGag4G</link>
+        <link_label>View Game Files</link_label>
     </project>
     <project id="004">
         <title>Neural Net Classifier</title>

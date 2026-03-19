@@ -493,6 +493,29 @@ section { padding: 96px 0; }
     font-size: 0.95rem;
 }
 
+.project-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 4px;
+    padding: 8px 16px;
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    border: 1px solid var(--primary-glow);
+    border-radius: 999px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all var(--transition);
+    width: fit-content;
+}
+.project-link-btn:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    transform: translateY(-1px);
+}
+
 /* ----------- Achievements Section ----------- */
 .achievements-grid {
     display: grid;

@@ -56,11 +56,16 @@ function loadProjects() {
                 const category = sanitize(get('category'));
                 const role = sanitize(get('role'));
                 const collaborators = sanitize(get('collaborators'));
+                const link = get('link');
+                const linkLabel = sanitize(get('link_label')) || 'View Project';
 
                 const statusClass = status === 'Ongoing' ? 'status-ongoing' : 'status-completed';
                 const techTags = tech.split(',').map(t =>
                     `<span class="tag">${t.trim()}</span>`
                 ).join('');
+                const linkBtn = link
+                    ? `<a href="${sanitize(link)}" target="_blank" rel="noopener noreferrer" class="project-link-btn">🔗 ${linkLabel} ↗</a>`
+                    : '';
 
                 return `
                 <div class="project-card reveal">
@@ -77,6 +82,7 @@ function loadProjects() {
                         <span>👤 ${role}</span>
                         <span style="margin-left:auto">🤝 ${collaborators}</span>
                     </div>
+                    ${linkBtn}
                 </div>`;
             }).join('');
 
@@ -110,6 +116,8 @@ function loadProjectsFallback(target) {
         <collaborators>IBM Internship Team</collaborators>
         <desc>Exploratory Data Analysis application developed during IBM internship. Visualises viewer retention trends, content growth patterns, and genre analytics across Netflix streaming datasets.</desc>
         <status>Completed</status>
+        <link>https://github.com/Readerrss/Netflix-EDA</link>
+        <link_label>View on GitHub</link_label>
     </project>
     <project id="003">
         <title>The Final Climb</title>
@@ -119,6 +127,8 @@ function loadProjectsFallback(target) {
         <collaborators>Ritam Chatterjee, Syed Meraj Ahmed</collaborators>
         <desc>A physics-based platformer game built collaboratively. Implemented custom Blueprint logic for gravity manipulation, momentum preservation, and level progression for smooth 60fps gameplay.</desc>
         <status>Completed</status>
+        <link>https://drive.google.com/drive/folders/1PLyxFEeKqWV_c-UPsC5WYzx6LEUGag4G</link>
+        <link_label>View Game Files</link_label>
     </project>
     <project id="004">
         <title>Neural Net Classifier</title>
@@ -153,8 +163,13 @@ function loadProjectsFallback(target) {
         const category = sanitize(get('category'));
         const role = sanitize(get('role'));
         const collaborators = sanitize(get('collaborators'));
+        const link = get('link');
+        const linkLabel = sanitize(get('link_label')) || 'View Project';
         const statusClass = status === 'Ongoing' ? 'status-ongoing' : 'status-completed';
         const techTags = tech.split(',').map(t => `<span class="tag">${t.trim()}</span>`).join('');
+        const linkBtn = link
+            ? `<a href="${sanitize(link)}" target="_blank" rel="noopener noreferrer" class="project-link-btn">🔗 ${linkLabel} ↗</a>`
+            : '';
 
         return `
         <div class="project-card reveal">
@@ -168,6 +183,7 @@ function loadProjectsFallback(target) {
                 <span>👤 ${role}</span>
                 <span style="margin-left:auto">🤝 ${collaborators}</span>
             </div>
+            ${linkBtn}
         </div>`;
     }).join('');
 
