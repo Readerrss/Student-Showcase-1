@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitadru Karmakar | Portfolio (BCS-3A)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body data-theme="light">
+    <header>
+        <nav class="container">
+            <div class="logo">VOID<span>_Dev</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Hi, I'm <span class="highlight">Mitadru Karmakar</span></h1>
+            <p class="subtitle">B.Tech 3rd Year | AI-ML & Game Development</p>
+            <p class="hero-desc">Bridging the gap between high-performance hardware and immersive software solutions. 7.88 CGPA Candidate at Techno India University.</p>
+            <div class="cta-btns">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">Professional Profile</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a computer science student specialized in <strong>Artificial Intelligence and Machine Learning</strong>. My career interest lies in the intersection of <strong>AAA Game Development</strong> and <strong>High-Performance Computing</strong>. </p>
+                    <p>When I'm not writing C++ for Unreal Engine, I troubleshoot workstation-grade hardware (Intel i9/RTX 4090 setups) and lead the TIU student community. I believe in writing code that is not only functional but secure and scalable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-alt">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Core Languages</h3>
+                    <ul><li>C++ (UE5 Logic)</li><li>Python (AI/ML)</li><li>Java (OOP)</li><li>C & Lex</li></ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-globe"></i> Web & Data</h3>
+                    <ul><li>HTML5 & CSS3</li><li>JavaScript (ES6+)</li><li>Streamlit & XML</li><li>Distributed Systems</li></ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & OS</h3>
+                    <ul><li>Unreal Engine 5</li><li>Linux Shell Scripting</li><li>Git/GitHub</li><li>Torrents/P2P Logic</li></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Work</h2>
+            <div class="projects-container" id="xml-projects-target">
+                </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="bg-alt">
+        <div class="container">
+            <h2 class="section-title">Certifications & Milestones</h2>
+            <ul class="achv-list">
+                <li><strong>IBM Data Analysis Internship:</strong> Specialized in Exploratory Data Analysis (EDA) for streaming media datasets (2025).</li>
+                <li><strong>Techno Billion AI Internship:</strong> Implemented neural network basics using Python (2026).</li>
+                <li><strong>Scaler AI/ML:</strong> Completed advanced modules in predictive modeling and supervised learning.</li>
+                <li><strong>Community Leadership:</strong> Managed a TIU student cohort of 500+ members as Lead Community Manager.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact & Server Verification</h2>
+            <div class="contact-box">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Project Inquiry" rows="5" required></textarea>
+                    </div>
+                    <input type="checkbox" name="botcheck" style="display:none;" tabindex="-1">
+                    
+                    <button type="submit" id="submitBtn">Execute Send <i class="fas fa-paper-plane"></i></button>
+                    <div id="formFeedback"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mitadru Karmakar | Techno India University | BCS 3A Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

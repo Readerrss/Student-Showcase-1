@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+    <student_meta>
+        <name>Mitadru Karmakar</name>
+        <batch>BCS 3A</batch>
+        <year>3rd Year B.Tech</year>
+        <specialization>AI-ML</specialization>
+        <university>Techno India University</university>
+        <cgpa>7.88</cgpa>
+    </student_meta>
+    <project id="001">
+        <title>A Museum Anomaly</title>
+        <tech>UE5, C++</tech>
+        <category>Game Development</category>
+        <role>Lead Developer</role>
+        <collaborators>Ritam Chatterjee</collaborators>
+        <desc>A psychological thriller game built in Unreal Engine 5 using custom C++ anomaly detection logic. Features dynamic AI behaviour, environmental storytelling, and real-time rendering pipelines.</desc>
+        <status>Completed</status>
+    </project>
+    <project id="002">
+        <title>Netflix EDA Dashboard</title>
+        <tech>Python, Streamlit, Pandas</tech>
+        <category>Data Science</category>
+        <role>Data Analyst</role>
+        <collaborators>IBM Internship Team</collaborators>
+        <desc>Exploratory Data Analysis application developed during IBM internship. Visualises viewer retention trends, content growth patterns, and genre analytics across Netflix streaming datasets.</desc>
+        <status>Completed</status>
+    </project>
+    <project id="003">
+        <title>The Final Climb</title>
+        <tech>UE5 Blueprints</tech>
+        <category>Game Development</category>
+        <role>Physics Optimizer</role>
+        <collaborators>Syed Meraj Ahmed</collaborators>
+        <desc>A physics-based platformer game optimised for smooth 60fps gameplay. Implemented custom Unreal Engine Blueprint logic for gravity manipulation, momentum preservation, and level progression.</desc>
+        <status>Completed</status>
+    </project>
+    <project id="004">
+        <title>Neural Net Classifier</title>
+        <tech>Python, TensorFlow, scikit-learn</tech>
+        <category>Machine Learning</category>
+        <role>Developer</role>
+        <collaborators>Solo</collaborators>
+        <desc>A supervised learning project implementing multi-layer perceptron for binary and multiclass classification tasks. Achieved 92% accuracy on benchmark datasets using hyperparameter tuning and regularisation techniques.</desc>
+        <status>Completed</status>
+    </project>
+    <project id="005">
+        <title>Linux Shell Automation Suite</title>
+        <tech>Bash, Linux, Awk, Sed</tech>
+        <category>Systems &amp; DevOps</category>
+        <role>Developer</role>
+        <collaborators>Solo</collaborators>
+        <desc>A collection of shell scripts for automating repetitive system administration tasks — log rotation, file archival, network diagnostics, and process monitoring — designed for workstation-grade Linux environments.</desc>
+        <status>Ongoing</status>
+    </project>
+</projects>

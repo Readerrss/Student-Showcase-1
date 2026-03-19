@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolio>
+    <student_meta>
+        <name>Mitadru Karmakar</name>
+        <batch>BCS 3A</batch>
+        <specialization>AI-ML</specialization>
+    </student_meta>
+    <project_entry id="001">
+        <title>A Museum Anomaly</title>
+        <role>Lead Developer (C++)</role>
+        <collaborators>
+            <person>Ritam Chatterjee</person>
+        </collaborators>
+    </project_entry>
+    <project_entry id="002">
+        <title>The Final Climb</title>
+        <role>Physics Optimizer</role>
+        <collaborators>
+            <person>Syed Meraj Ahmed</person>
+        </collaborators>
+    </project_entry>
+</portfolio>
